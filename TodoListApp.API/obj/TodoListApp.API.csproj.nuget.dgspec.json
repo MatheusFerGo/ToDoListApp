@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\TodoListApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\TodoListApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\TodoListApp.API.csproj",
+        "projectName": "TodoListApp.API",
+        "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\TodoListApp.API.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\TodoListApp.Application.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\TodoListApp.Application.csproj"
+              },
+              "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\TodoListApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\TodoListApp.Application.csproj",
+        "projectName": "TodoListApp.Application",
+        "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\TodoListApp.Application.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj",
+        "projectName": "TodoListApp.Domain",
+        "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj",
+        "projectName": "TodoListApp.Infrastructure",
+        "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Domain\\TodoListApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

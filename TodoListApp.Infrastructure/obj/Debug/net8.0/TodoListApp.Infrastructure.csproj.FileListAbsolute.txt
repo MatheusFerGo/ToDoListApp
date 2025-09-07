@@ -1,0 +1,15 @@
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\bin\Debug\net8.0\TodoListApp.Infrastructure.deps.json
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\bin\Debug\net8.0\TodoListApp.Infrastructure.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\bin\Debug\net8.0\TodoListApp.Infrastructure.pdb
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\bin\Debug\net8.0\TodoListApp.Domain.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\bin\Debug\net8.0\TodoListApp.Domain.pdb
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoList.17FEECDB.Up2Date
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\refint\TodoListApp.Infrastructure.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\TodoListApp.Infrastructure.pdb
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Infrastructure\obj\Debug\net8.0\ref\TodoListApp.Infrastructure.dll
