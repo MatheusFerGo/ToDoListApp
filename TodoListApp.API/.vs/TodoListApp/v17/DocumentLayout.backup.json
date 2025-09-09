@@ -5,13 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E68FD2A3-1587-40BB-A353-76EB2A544175}|TodoListApp.API.csproj|c:\\users\\matheus\\onedrive\\documentos\\cursos\\rocketseat\\workspace\\todolistapp\\todolistapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E68FD2A3-1587-40BB-A353-76EB2A544175}|TodoListApp.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF619AD2-A16D-426B-B1D4-7148E226615F}|..\\TodoListApp.Infrastructure\\TodoListApp.Infrastructure.csproj|c:\\users\\matheus\\onedrive\\documentos\\cursos\\rocketseat\\workspace\\todolistapp\\todolistapp.infrastructure\\persistence\\inmemoryitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E68FD2A3-1587-40BB-A353-76EB2A544175}|TodoListApp.API.csproj|c:\\users\\matheus\\onedrive\\documentos\\cursos\\rocketseat\\workspace\\todolistapp\\todolistapp.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68FD2A3-1587-40BB-A353-76EB2A544175}|TodoListApp.API.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,35 +24,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T17:15:26.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InMemoryItemsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\Persistence\\InMemoryItemsRepository.cs",
-              "RelativeDocumentMoniker": "..\\TodoListApp.Infrastructure\\Persistence\\InMemoryItemsRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.Infrastructure\\Persistence\\InMemoryItemsRepository.cs",
-              "RelativeToolTip": "..\\TodoListApp.Infrastructure\\Persistence\\InMemoryItemsRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T16:57:32.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\Controllers\\ItemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\OneDrive\\Documentos\\Cursos\\Rocketseat\\Workspace\\ToDoListApp\\TodoListApp.API\\Controllers\\ItemsController.cs",
-              "RelativeToolTip": "Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T15:59:11.722Z",
+              "WhenOpened": "2025-09-09T00:43:53.101Z",
               "EditorCaption": ""
             }
           ]

@@ -9,3 +9,16 @@ C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\Tod
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Domain\obj\Debug\net8.0\refint\TodoListApp.Domain.dll
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.pdb
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Domain\obj\Debug\net8.0\ref\TodoListApp.Domain.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.sourcelink.json
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\bin\Debug\net8.0\TodoListApp.Domain.deps.json
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\bin\Debug\net8.0\TodoListApp.Domain.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\bin\Debug\net8.0\TodoListApp.Domain.pdb
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.AssemblyInfo.cs
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.sourcelink.json
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\refint\TodoListApp.Domain.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\TodoListApp.Domain.pdb
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\src\TodoListApp.Domain\obj\Debug\net8.0\ref\TodoListApp.Domain.dll
