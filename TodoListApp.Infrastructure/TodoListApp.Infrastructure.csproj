@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Supabase" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TodoListApp.Domain\TodoListApp.Domain.csproj" />
   </ItemGroup>
 

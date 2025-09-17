@@ -11,7 +11,23 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton<IItemsRepository, InMemoryItemsRepository>();
+// 1. Ler as configurações do Supabase do appsettings.json
+var supabaseUrl = builder.Configuration["Supabase:Url"];
+var supabaseApiKey = builder.Configuration["Supabase:ApiKey"];
+
+// 2. Criar uma instância do cliente do Supabase
+var supabaseOptions = new Supabase.SupabaseOptions
+{
+    AutoRefreshToken = true,
+    AutoConnectRealtime = true
+};
+var supabase = new Supabase.Client(supabaseUrl, supabaseApiKey, supabaseOptions);
+
+// 3. Adicionar o cliente como um serviço Singleton para que ele possa ser injetado
+builder.Services.AddSingleton(supabase);
+
+// Agora sim, o resto das nossas injeções de dependência
+builder.Services.AddScoped<IItemsRepository, SupabaseItemsRepository>();
 builder.Services.AddScoped<IItemServices, ItemServices>();
 
 var app = builder.Build();

@@ -7,7 +7,7 @@ namespace TodoListApp.Domain.Entities
         public Guid Id { get; set; }
         public string Title { get; private set; } = string.Empty;
         public string? Description { get; private set; }
-        public ItemStatus Status { get; private set; }
+        public ItemStatus Status { get; set; }
         public DateTime DueDate { get; private set; }
         public DateTime CreationTime { get; private set; }
         public DateTime? UpdateTime { get; private set; }

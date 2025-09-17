@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4d58dbb1-d205-40b8-8bb9-c9cdcb7af598")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoListApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+507657317322ba2d2d4524459740ee40dbc872de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44ad181724d7d5cc389755edc111bbb7861827e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoListApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoListApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
