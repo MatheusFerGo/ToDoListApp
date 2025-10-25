@@ -2,8 +2,32 @@ using TodoListApp.Application.Interfaces;
 using TodoListApp.Application.Services;
 using TodoListApp.Domain.Interfaces;
 using TodoListApp.Infrastructure.Persistence;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    // A URL do seu projeto Supabase, que diz quem é destinado. Para o Supabase, é sempre "authenticated"
+    options.Authority = builder.Configuration["Supabase:Url"];
+
+    // O "público" para quem o token é destinado. Para o Supabase, é sempre "authenticated"
+    options.Audience = "authenticated";
+
+    // Configurações extra para garantir que a validação é feita corretamente
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = false, // O Issuer do Supabase pode ser dinâmico, então não o validamos diretamente
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true
+    };
+});
+
+builder.Services.AddAuthorization();
+
+builder.Services.AddControllers();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -40,6 +64,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

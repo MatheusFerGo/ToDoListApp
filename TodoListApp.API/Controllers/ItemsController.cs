@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TodoListApp.Application.DTOs;
 using TodoListApp.Application.Interfaces;
 
@@ -16,13 +17,16 @@ namespace TodoListApp.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             var items = await _itemServices.GetAllItemsAsync();
             return Ok(items);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
+        [Route("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetById(Guid id)
         {
             var item = await _itemServices.GetItemByIdAsync(id);
@@ -34,13 +38,16 @@ namespace TodoListApp.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create([FromBody] CreateItemDto dto)
         {
             var item = await _itemServices.CreateItemAsync(dto);
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, item);
         }        
 
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("{id}")]
+        [Authorize]
         public async Task<IActionResult> Update(Guid id, [FromBody] UpdateItemDto dto)
         {
             var success = await _itemServices.UpdateItemAsync(id, dto);
@@ -51,7 +58,9 @@ namespace TodoListApp.API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(Guid id)
         {
             var success = await _itemServices.DeleteItemAsync(id);

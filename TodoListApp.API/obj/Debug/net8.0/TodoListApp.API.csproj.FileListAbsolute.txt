@@ -101,3 +101,6 @@ C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\Tod
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\System.Reactive.dll
 C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\Websocket.Client.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Matheus\OneDrive\Documentos\Cursos\Rocketseat\Workspace\ToDoListApp\TodoListApp.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
